@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+# generated outputs (re-create with: python run_analysis.py)
+reports/figures/*.png
+reports/tables/*.csv
+reports/summary.txt
+# real dataset (large / licensed) - keep the synthetic sample only
+data/sales_data.csv
